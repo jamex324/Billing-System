@@ -1,0 +1,59 @@
+.side-nav {
+    width: 250px;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light background */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.admin-title {
+    font-size: 1.5rem;
+    color: #343a40; /* Darker text color */
+    font-weight: bold;
+    text-align: center;
+}
+
+.divider {
+    margin: 10px 0;
+    border: 1px solid #dee2e6; /* Light divider color */
+}
+
+.nav-link {
+    font-size: 1.3rem; /* Font size for links */
+    color: #495057; /* Link color */
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.2s ease; /* Smooth background transition */
+}
+
+.nav-link:hover {
+    background-color: #e9ecef; /* Background color on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.nav-link.active {
+    background-color: #007bff; /* Active link background */
+    color: white; /* Active link text color */
+}
+
+.logout-link {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

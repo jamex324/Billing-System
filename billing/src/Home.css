@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif; /* Roman-style font */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('OCC1.jpg') no-repeat center center fixed; /* Set OCC1.jpg as background */
+    background-size: cover; /* Cover the entire viewport */
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.5); /* More transparent white background */
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.logo-image {
+    display: block;
+    margin: 0 auto 20px; /* Center the logo */
+    width: 150px;
+}
+
+h1, h5 {
+    text-align: center; /* Center text */
+    color: #333; /* Dark text color for contrast */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+.btn-primary {
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #357ab8;
+    transform: translateY(-2px);
+}
+
+.loading-text, .error-text, .success-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.error-text {
+    color: red;
+    font-weight: bold;
+}
+
+.success-text {
+    color: green;
+    font-weight: bold;
+}

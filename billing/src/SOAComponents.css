@@ -1,0 +1,37 @@
+.container {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: right; /* Align h1 text to the right */
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; /* Keep table content aligned to the left */
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.text-center {
+    text-align: center; /* Center align text */
+}
+
+.title {
+    font-size: 2.5rem; /* Large font size for the title */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 20px; /* Spacing below the title */
+    text-decoration: none; /* Optional: underline the title */
+    color: #007bff; /* Optional: color for the title */
+    text-align: right; /* Align title text to the right */
+}
